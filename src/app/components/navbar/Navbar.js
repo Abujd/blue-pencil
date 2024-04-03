@@ -25,9 +25,9 @@ function Navbar() {
       <div className=" md:block hidden">
         <div className="flex h-[100px] justify-between items-center mx-[120px]">
           <div className="flex gap-[40px] z-[2]">
-            <div className="text-[14px] text-[#505F98]">Home</div>
-            <div className="text-[14px] text-[#505F98]">About</div>
-            <div className="text-[14px] text-[#505F98]">Contact</div>
+            <div className="text-[14px] text-[#505F98] cursor-pointer">Home</div>
+            <div className="text-[14px] text-[#505F98] cursor-pointer">About</div>
+            <div className="text-[14px] text-[#505F98] cursor-pointer">Contact</div>
           </div>
           <div className="text-[#37447E] text-[26px] font-[900] leading-[38px] flex-grow-1  z-[2]">
             Landing

@@ -26,7 +26,7 @@ function LightFastPowerful(props) {
             <LightFastPowerfulCard />
           </div>
         </div>
-        <div className="md:ml-[40px] ml-0">
+        <div className="md:ml-[100px] ml-0">
         <Image src="/girlWithMobileLogin.png" alt="Hero Image" width={540} height={524} />
       </div>
       </div>
