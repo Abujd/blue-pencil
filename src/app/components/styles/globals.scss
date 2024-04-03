@@ -6,6 +6,7 @@
 $primary-color: #111b47;
 $secondary-color: #091133;
 $text-color: white;
+$pricingBgImageUrl : '/girlHoldingEmail.png';
 
 :root {
   --primary: 9, 17, 51;
@@ -79,4 +80,11 @@ body {
   .btn {
     font-size: 0.8rem;
   }
+}
+
+.background-container {
+  background-image: url('/rectangle.png');
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;
 }
