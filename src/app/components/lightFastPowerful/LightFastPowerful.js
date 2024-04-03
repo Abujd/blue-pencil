@@ -1,16 +1,13 @@
-import Image from "next/image";
 import React from "react";
+import LightFastPowerfulCard from "./LightFastPowerfulCard";
 
-function HeroSection(props) {
+function LightFastPowerful(props) {
   return (
     <div className="relative overflow-hidden">
       <div className="container grid grid-cols-1 lg:grid-cols-2">
-        <div className="lg:py-[140px] py-[60px] lg:order-first order-last md:mt-0 mt-[40px]">
-          <h1 className="text-[#091133] leading-[66px] font-medium md:block hidden">
-            Introduce Your Product <br /> Quickly & Effectively
-          </h1>
-          <h2 className="text-[#091133] leading-[40px] font-medium md:hidden block ">
-            Introduce Your Product Quickly & Effectively
+        <div className="md:py-[100px] py-[60px] lg:order-first order-last md:mt-0 mt-[40px]">
+          <h2 className="text-[#091133] leading-[40px] font-medium">
+            Light, Fast & Powerful
           </h2>
           <div className="mt-[20px] mb-[30px]">
             <p className="text-[#505F98] text-[18px] leading-[30px]">
@@ -23,13 +20,9 @@ function HeroSection(props) {
               sem. Nulla consequat massa quis enim.
             </p>
           </div>
-          <div class="md:flex items-center gap-4">
-            <button class="btn btn-primary  w-[100%] md:w-fit">
-              Purchase UI Kit
-            </button>
-            <button class="btn btn-outlined md:mt-0 mt-[20px] w-[100%] md:w-fit">
-              Learn More
-            </button>
+          <div class="flex flex-col md:flex-row items-center gap-[60px] md:gap-[30px] mt-[40px] md:mt-[60px]">
+            <LightFastPowerfulCard />
+            <LightFastPowerfulCard />
           </div>
         </div>
       </div>
@@ -40,4 +33,4 @@ function HeroSection(props) {
   );
 }
 
-export default HeroSection;
+export default LightFastPowerful;
