@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+$primary-color: #111b47;
+$secondary-color: #091133;
+$text-color: white;
+
 :root {
   --primary: 9, 17, 51;
 }
@@ -17,6 +21,7 @@ html {
   -webkit-text-size-adjust: 100%;
   font-feature-settings: normal;
   font-variation-settings: normal;
+  width: fit-content;
 }
 
 body {
@@ -32,13 +37,46 @@ body {
   background: linear-gradient(90deg, #25196b 0%, #94d9cd 100%);
 }
 
-.btn-primary {
-  background-color: #111b47;
-  font-size: 12px;
+.btn {
+  display: inline-block;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 18px;
+  line-height: 1.5;
   text-align: center;
-  border-radius: 4px;
-  color: white;
-  padding: 10px 60px;
+  border-radius: 2px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  color: $text-color;
+
+  &:hover {
+    border: 2px solid $secondary-color;
+    background-color: transparent;
+    color: $secondary-color;
+  }
+}
+
+.btn-outlined {
+  border: 2px solid $secondary-color;
+  background-color: transparent;
+  color: $secondary-color;
+
+  &:hover {
+    background-color: $primary-color;
+    color: $text-color;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 0.8rem;
+  }
 }
