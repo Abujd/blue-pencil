@@ -4,7 +4,7 @@ import TilesData from "../../constants/TilesData";
 
 function LightFastPowerfulTiles() {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden lg:mx-[120px] mx-[40px]">
       {TilesData.map((item, index) => (
         <div className="container grid grid-cols-1 lg:grid-cols-2 items-center" key={index}>
           <div className="md:py-[100px] py-[60px] order-last md:mt-0 mt-[40px]">

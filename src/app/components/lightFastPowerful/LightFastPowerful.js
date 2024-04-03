@@ -1,9 +1,10 @@
 import React from "react";
 import LightFastPowerfulCard from "./LightFastPowerfulCard";
+import Image from "next/image";
 
 function LightFastPowerful(props) {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden lg:mx-[120px] mx-[40px]">
       <div className="container grid grid-cols-1 lg:grid-cols-2">
         <div className="md:py-[100px] py-[60px] lg:order-first order-last md:mt-0 mt-[40px]">
           <h2 className="text-[#091133] leading-[40px] font-medium">
@@ -25,10 +26,10 @@ function LightFastPowerful(props) {
             <LightFastPowerfulCard />
           </div>
         </div>
+        <div className="md:ml-[40px] ml-0">
+        <Image src="/girlWithMobileLogin.png" alt="Hero Image" width={540} height={524} />
       </div>
-      {/* <div className="absolute top-0 right-0">
-        <Image src="/herosection.png" alt="Hero Image" layout="fill" />
-      </div> */}
+      </div>
     </div>
   );
 }

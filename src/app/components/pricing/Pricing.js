@@ -2,8 +2,8 @@ import React from "react";
 
 function Pricing() {
   return (
-    <div className="relative overflow-hidden py-[100px]">
-      <div className="container flex items-center justify-center mx-auto">
+    <div className="relative overflow-hidden py-[100px] lg:px-[120px] px-[40px] background-container w">
+      <div className="container flex items-center justify-center mx-auto w-full">
         <div className="text-center max-w-[600px]">
           <h2 className="text-[#091133] leading-[48px] font-medium">
             A Price To Suit Everyone

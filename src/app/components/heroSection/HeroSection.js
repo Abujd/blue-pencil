@@ -3,7 +3,7 @@ import React from "react";
 
 function HeroSection(props) {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden lg:mx-[120px] mx-[40px]">
       <div className="container grid grid-cols-1 lg:grid-cols-2">
         <div className="lg:py-[140px] py-[60px] lg:order-first order-last md:mt-0 mt-[40px]">
           <h1 className="text-[#091133] leading-[66px] font-medium md:block hidden">

@@ -1,18 +1,18 @@
 @layer base {
     h1 {
-      @apply text-[50px] leading-[100%];
+      @apply md:text-[50px] text-[40px] leading-[100%];
     }
   
     h2 {
-      @apply text-[36px] leading-[100%];
+      @apply md:text-[36px] text-[30px] leading-[100%];
     }
   
     h3 {
-      @apply text-[24px] leading-[100%];
+      @apply md:text-[24px] text-[20px] leading-[100%];
     }
   
     h4 {
-      @apply text-[16px] leading-[100%];
+      @apply md:text-[16px] text-[14px] leading-[100%];
     }
   
     h5 {
@@ -24,7 +24,7 @@
     }
   
     .para {
-      @apply text-[12px];
+      @apply md:text-[14px] text-[12px];
     }
   
     .text-base-bold {
