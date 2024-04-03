@@ -93,3 +93,32 @@ body {
   border-bottom: 1px solid #5D6970;
   opacity: 0.6;
 }
+
+.hamburger {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 2px 4px;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+
+.hamburger.is-active {
+  transform: rotate(45deg);
+}
+
+.hamburger.is-active span:first-child {
+  transform: translateX(20px) rotate(135deg);
+}
+
+.hamburger.is-active span:last-child {
+  transform: translateX(-20px) rotate(-45deg);
+}

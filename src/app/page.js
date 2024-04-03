@@ -8,7 +8,7 @@ import Pricing from "./components/pricing/Pricing";
 export default function Home() {
   return (
    <div>
-     {/* <Navbar /> */}
+     <Navbar />
      <HeroSection />
      <LightFastPowerful />
      <LightFastPowerfulTiles />
