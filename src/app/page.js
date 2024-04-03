@@ -1,5 +1,9 @@
+import Navbar from "./components/navbar/Navbar";
+
 export default function Home() {
   return (
-  <div className="font-bold">First commit</div>
+   <div className="lg:mx-[120px] mx-[40px]">
+     <Navbar />
+   </div>
   );
 }
