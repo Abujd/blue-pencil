@@ -1,5 +1,6 @@
 import HeroSection from "./components/heroSection/HeroSection";
 import LightFastPowerful from "./components/lightFastPowerful/LightFastPowerful";
+import LightFastPowerfulTiles from "./components/lightFastPowerfulTiles/lightFastPowerfulTiles";
 import Navbar from "./components/navbar/Navbar";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
      {/* <Navbar /> */}
      <HeroSection />
      <LightFastPowerful />
+     <LightFastPowerfulTiles />
    </div>
   );
 }
